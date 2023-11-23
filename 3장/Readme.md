@@ -7,8 +7,8 @@
 프로듀서는 보통 카프카 프로듀서 API 와 그것으로 구성된 애플리케이션을 말함,
 
 프로듀서는 브로커에 특정 토픽(혹은 파티션 영역까지)을 지정하여 메시지를 전달하는 역할을 담당
+![1 1](https://github.com/develsvai/Kafka-reading-study/assets/125961256/0a150697-a4ce-4d7b-8ef1-e8bd3739524b)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/522b38fd-73b6-4b51-9fc1-f6fc136bc4d3/429c82a1-c77e-478a-9d5e-280edcc56937/Untitled.jpeg)
 
 # 3.2 프로듀서 객체 생성
 
@@ -33,8 +33,9 @@ value.serializer- 벨류값을 직렬화 하기 위한 시리얼 라이저 클�
 - 메시지 값 (Value)
 
 # 3.3메지지 전송
+![1 2](https://github.com/develsvai/Kafka-reading-study/assets/125961256/8cc609a0-dc8d-4031-9fa8-d820423e279a)
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/522b38fd-73b6-4b51-9fc1-f6fc136bc4d3/80c4162f-8ef1-4c60-917e-fa75c6d5afa8/Untitled.png)
+
 
 1. 직렬화 (Serializer)
 2. 파티셔닝 (Partitioner)
